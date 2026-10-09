@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#101827">
+    <meta name="description" content="A front-end development learning portfolio, built with HTML and CSS.">
+    <title>Front-end Development | Learning Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <nav class="navigation container" aria-label="Main navigation">
+            <a class="brand" href="#top" aria-label="Back to home">WEB<span>.</span></a>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#learning">What I'm learning</a>
+                <a href="#projects">Projects</a>
+            </div>
+            <a class="nav-cta" href="#contact">Say hello <span aria-hidden="true">↗</span></a>
+        </nav>
+    </header>
+
+    <main id="top">
+        <section class="hero container" aria-labelledby="hero-title">
+            <div class="hero-copy">
+                <p class="eyebrow"><span class="status-dot"></span> MY FRONT-END JOURNEY</p>
+                <h1 id="hero-title">Building for the web,<br><span>one line at a time.</span></h1>
+                <p class="hero-description">Hi, I'm Alex — an aspiring front-end developer turning curiosity into clean, responsive web experiences with HTML and CSS.</p>
+                <div class="hero-actions">
+                    <a class="button button-primary" href="#projects">Explore my work <span aria-hidden="true">↓</span></a>
+                    <a class="text-link" href="#about">A little about me <span aria-hidden="true">↗</span></a>
+                </div>
+                <div class="hero-note">
+                    <span class="note-mark" aria-hidden="true">✳</span>
+                    <p>Currently learning the fundamentals — and enjoying every challenge along the way.</p>
+                </div>
+            </div>
+            <div class="hero-visual" aria-label="Decorative HTML and CSS illustration">
+                <div class="visual-glow"></div>
+                <div class="code-window">
+                    <div class="window-bar"><span></span><span></span><span></span><small>my-next-project.html</small></div>
+                    <div class="code-content" aria-hidden="true">
+                        <p><span class="code-muted">&lt;!doctype</span> <span class="code-green">html</span><span class="code-muted">&gt;</span></p>
+                        <p><span class="code-pink">&lt;main</span><span class="code-yellow"> class</span><span class="code-muted">=</span><span class="code-orange">"ideas"</span><span class="code-pink">&gt;</span></p>
+                        <p class="indent"><span class="code-pink">&lt;h1&gt;</span>Keep creating<span class="code-pink">&lt;/h1&gt;</span></p>
+                        <p class="indent"><span class="code-pink">&lt;p&gt;</span>Learn. Build. Repeat.<span class="code-pink">&lt;/p&gt;</span></p>
+                        <p><span class="code-pink">&lt;/main&gt;</span></p>
+                        <div class="code-divider"></div>
+                        <p><span class="code-purple">.ideas</span> <span class="code-muted">{</span></p>
+                        <p class="indent"><span class="code-blue">color</span><span class="code-muted">:</span> <span class="code-orange">#7ce7c1</span><span class="code-muted">;</span></p>
+                        <p class="indent"><span class="code-blue">keepGoing</span><span class="code-muted">:</span> <span class="code-green">true</span><span class="code-muted">;</span></p>
+                        <p><span class="code-muted">}</span></p>
+                        <div class="code-cursor"></div>
+                    </div>
+                </div>
+                <div class="floating-badge"><span aria-hidden="true">✦</span> Made with curiosity</div>
+            </div>
+            <a class="scroll-cue" href="#about"><span></span> SCROLL TO EXPLORE</a>
+        </section>
+
+        <section class="about-section section-shell" id="about" aria-labelledby="about-title">
+            <div class="container about-grid">
+                <div>
+                    <p class="eyebrow eyebrow-dark">A BIT ABOUT ME</p>
+                    <h2 id="about-title">Starting with the basics.<br><span>Building toward big ideas.</span></h2>
+                </div>
+                <div class="about-copy">
+                    <p>I'm learning front-end development by creating real pages, experimenting with layouts, and improving with every iteration. This site is one step in that journey.</p>
+                    <p>My goal is to make the web feel clear, useful, and welcoming — while growing my skills one project at a time.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="learning-section container" id="learning" aria-labelledby="learning-title">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow eyebrow-dark">THE TOOLKIT</p>
+                    <h2 id="learning-title">What I'm learning<span>.</span></h2>
+                </div>
+                <p class="section-aside">Strong foundations make<br>better things possible.</p>
+            </div>
+            <div class="skill-grid">
+                <article class="skill-card">
+                    <div class="skill-icon html-icon" aria-hidden="true">&lt;/&gt;</div>
+                    <p class="card-number">01 / STRUCTURE</p>
+                    <h3>HTML</h3>
+                    <p>Building meaningful page structure with accessible, semantic elements.</p>
+                    <div class="skill-line"><span style="width: 72%"></span></div>
+                </article>
+                <article class="skill-card">
+                    <div class="skill-icon css-icon" aria-hidden="true">✳</div>
+                    <p class="card-number">02 / PRESENTATION</p>
+                    <h3>CSS</h3>
+                    <p>Exploring colour, typography, responsive layouts, and visual details.</p>
+                    <div class="skill-line"><span style="width: 58%"></span></div>
+                </article>
+                <article class="skill-card">
+                    <div class="skill-icon responsive-icon" aria-hidden="true">▣</div>
+                    <p class="card-number">03 / RESPONSIVE DESIGN</p>
+                    <h3>Designing for every screen</h3>
+                    <p>Practising flexible layouts that work beautifully on phones and desktops.</p>
+                    <div class="skill-line"><span style="width: 45%"></span></div>
+                </article>
+            </div>
+            <p class="progress-note"><span aria-hidden="true">✳</span> Skill indicators show topics I'm currently exploring — there's always more to learn.</p>
+        </section>
+
+        <section class="projects-section" id="projects" aria-labelledby="projects-title">
+            <div class="container">
+                <div class="section-heading">
+                    <div>
+                        <p class="eyebrow">PRACTICE IN PUBLIC</p>
+                        <h2 id="projects-title">Small steps. Real progress<span>.</span></h2>
+                    </div>
+                    <p class="section-aside">A few ideas I'm using<br>to practise and grow.</p>
+                </div>
+                <div class="project-grid">
+                    <article class="project-card project-one">
+                        <div class="project-art art-portfolio" aria-hidden="true"><span class="art-window"><i></i><i></i><i></i><b>hello, world!</b><em>building my portfolio_</em></span></div>
+                        <div class="project-details"><p class="project-label">01 &nbsp;·&nbsp; PERSONAL</p><h3>Portfolio landing page</h3><p>A home for my learning journey and future projects.</p><span class="project-status"><span></span> IN PROGRESS</span></div>
+                    </article>
+                    <article class="project-card project-two">
+                        <div class="project-art art-product" aria-hidden="true"><span class="product-shape"></span><span class="product-caption">LESS, BUT BETTER.</span></div>
+                        <div class="project-details"><p class="project-label">02 &nbsp;·&nbsp; LAYOUT PRACTICE</p><h3>Product showcase</h3><p>Practising composition, colour, and clear visual hierarchy.</p><span class="project-status"><span></span> UP NEXT</span></div>
+                    </article>
+                    <article class="project-card project-three">
+                        <div class="project-art art-blog" aria-hidden="true"><span class="blog-lines"><i></i><i></i><i></i><b></b></span><span class="blog-orb"></span></div>
+                        <div class="project-details"><p class="project-label">03 &nbsp;·&nbsp; RESPONSIVE DESIGN</p><h3>Responsive blog layout</h3><p>Exploring comfortable reading on screens of every size.</p><span class="project-status"><span></span> ON THE ROADMAP</span></div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-section container" id="contact" aria-labelledby="contact-title">
+            <div class="contact-card">
+                <div>
+                    <p class="eyebrow">LET'S CONNECT</p>
+                    <h2 id="contact-title">Good things start<br>with a <span>hello.</span></h2>
+                    <p class="contact-copy">Sharing what I'm learning and looking forward to what's next.</p>
+                </div>
+                <a class="button button-light" href="https://www.linkedin.com/" target="_blank" rel="noreferrer">Find me on LinkedIn <span aria-hidden="true">↗</span></a>
+                <span class="contact-sparkle" aria-hidden="true">✳</span>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <a class="brand footer-brand" href="#top">WEB<span>.</span></a>
+            <p>Built with care, curiosity, HTML &amp; CSS.</p>
+            <p class="copyright">© 2026 Front-end learning portfolio</p>
+        </div>
+    </footer>
+</body>
+
+</html>
